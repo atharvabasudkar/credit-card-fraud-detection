@@ -1,0 +1,35 @@
+# Dataset
+data/
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Model files (optional)
+# Uncomment if models are too large
+# *.pkl
+# *.joblib
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml

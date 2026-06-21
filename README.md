@@ -98,3 +98,33 @@ Reasons:
 ## Author
 
 Atharva Basudkar
+
+---
+
+## Run Locally with Streamlit
+
+1. Create and activate a Python virtual environment.
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the app:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+## Deploy to Streamlit Community Cloud
+
+1. Push this repository to GitHub.
+2. On Streamlit Community Cloud, create a new app and point the "Main file" to `streamlit_app.py`.
+3. Ensure `requirements.txt` is present in the repo root (already included).
+

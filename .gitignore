@@ -1,3 +1,13 @@
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.pytest_cache/
+.vscode/
+.ipynb_checkpoints/
 # Dataset
 data/
 *.csv
